@@ -5,9 +5,9 @@ platform :ios, '11.0'
 target 'GMModulizationDemo_Example' do
   pod 'GMModulizationDemo', :path => '../'
 
-  target 'GMModulizationDemo_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'GMModulizationDemo_Tests' do
+#    inherit! :search_paths
+#
+#
+#  end
 end
