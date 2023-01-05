@@ -1,0 +1,6 @@
+framework module GMModulizationDemo {
+  umbrella header "GMModulizationDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
