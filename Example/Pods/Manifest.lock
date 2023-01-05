@@ -1,5 +1,5 @@
 PODS:
-  - GMModulizationDemo (0.1.0)
+  - GMModulizationDemo (1.0.0)
 
 DEPENDENCIES:
   - GMModulizationDemo (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GMModulizationDemo: 31452afc3885e1d1e7b4b5efbd0c7e0917288fcb
+  GMModulizationDemo: 972ed74b7e285dce8dfea35d189e2e7f3952be9a
 
-PODFILE CHECKSUM: d9ab244b0208a4bc9a05bcef25cb6eca5d486da9
+PODFILE CHECKSUM: cdd91d102270bf49805d650d5bbd14a46b10dfdb
 
 COCOAPODS: 1.11.3

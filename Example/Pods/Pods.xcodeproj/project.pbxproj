@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		086C9AF47DD3B301B30808BFFE66E145 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FC48E2DBDB9A4A41C1825A0C970CD /* Demo.swift */; };
-		4AB0203CD2277FD27B2DC1EFA981C72A /* Pods-GMModulizationDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D88BD71FFEC168B944824673F2364F /* Pods-GMModulizationDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EE1DE0917576380BC98F1C3B894A472 /* Pods-GMModulizationDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF249D83B3185312E567440825E92F6 /* Pods-GMModulizationDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EB161633841AA9E9A83A952186EA656 /* GMModulizationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11012AC61B9D8E621D384565B74830E /* GMModulizationDemo-dummy.m */; };
-		684E3DEA034AE2CEEF97CA5A2D293B94 /* GMModulizationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8109EEF51413A1E485A06D735EE36DB6 /* GMModulizationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82F07BF6C8E57CFD60C9616F7E166DDB /* Pods-GMModulizationDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334B5BE2F54C2CE0A8BFA32FB411D429 /* Pods-GMModulizationDemo_Tests-dummy.m */; };
-		9F030BEBD25DAAE24B11844FE22FA0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4EE1DE0917576380BC98F1C3B894A472 /* Pods-GMModulizationDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F905E10AB71BC323E623DE3F75ED91E /* Pods-GMModulizationDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684E3DEA034AE2CEEF97CA5A2D293B94 /* GMModulizationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417DFFABBD10A4BFBCD857ECD2413E20 /* GMModulizationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE820E556504905976ABC757A77290D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4675660D7F73F394AE3DFC7011FD4380 /* ColorExtension.swift */; };
 		AA6BEB37517836FDCACB89F3D876E5D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AD7255931A9007A228CD5995F7DA602D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3FBA1E337E18F0D390588C8B361C082 /* Pods-GMModulizationDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7CE5926091234FF7BE506549E4986 /* Pods-GMModulizationDemo_Example-dummy.m */; };
+		CE3605494BD0ADC82C39D6F94A436ED6 /* GMModulizationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1F40120315669B0705A7FA13211A1 /* GMModulizationDemo-dummy.m */; };
+		D3FBA1E337E18F0D390588C8B361C082 /* Pods-GMModulizationDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A475BA8B8A6FB73B4FA8BBCB3363AEAB /* Pods-GMModulizationDemo_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,49 +24,32 @@
 			remoteGlobalIDString = A3AA36363FE93A258F5F48F7D18891DE;
 			remoteInfo = GMModulizationDemo;
 		};
-		F2A2145EF0BE57D715431D291332D10D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 081FABA3FD317E1B7E7E3C33354C6E90;
-			remoteInfo = "Pods-GMModulizationDemo_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073C5B7DC497C06C2F6C590BA1D50E69 /* GMModulizationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMModulizationDemo.debug.xcconfig; sourceTree = "<group>"; };
-		0B4FF42CE82B92E0A387DB3BFEC38151 /* GMModulizationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMModulizationDemo.modulemap; sourceTree = "<group>"; };
-		334B5BE2F54C2CE0A8BFA32FB411D429 /* Pods-GMModulizationDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMModulizationDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		3770998D796659F9251FEAA6E7E8F0E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		402FC48E2DBDB9A4A41C1825A0C970CD /* Demo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Demo.swift; path = GMModulizationDemo/Classes/Demo.swift; sourceTree = "<group>"; };
-		43D88BD71FFEC168B944824673F2364F /* Pods-GMModulizationDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMModulizationDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		475828DB6D198055716A7AA2ADD54A0D /* Pods-GMModulizationDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		01C9A316842B734A263F4A58E3044B77 /* GMModulizationDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GMModulizationDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02E591AA1F2C95AB49F88E2A2BBCAA53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		084BFF3B08BBBF9C7434BC9D04D7FCBD /* GMModulizationDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMModulizationDemo-prefix.pch"; sourceTree = "<group>"; };
+		0A481819D52061AA2D9D75EC192F431D /* GMModulizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMModulizationDemo.release.xcconfig; sourceTree = "<group>"; };
+		0D0A7A1B8EA0328D0CF772C0329D629C /* Pods-GMModulizationDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMModulizationDemo_Example.modulemap"; sourceTree = "<group>"; };
+		1F8DAF4AA7DB55144850816C610748F4 /* Pods-GMModulizationDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B482896F0670A2842695D3499CDAF37 /* GMModulizationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMModulizationDemo.debug.xcconfig; sourceTree = "<group>"; };
+		3F905E10AB71BC323E623DE3F75ED91E /* Pods-GMModulizationDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMModulizationDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		417DFFABBD10A4BFBCD857ECD2413E20 /* GMModulizationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMModulizationDemo-umbrella.h"; sourceTree = "<group>"; };
+		4675660D7F73F394AE3DFC7011FD4380 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = GMModulizationDemo/Classes/ColorExtension.swift; sourceTree = "<group>"; };
+		47185488F2201A111952586CAE63F120 /* Pods-GMModulizationDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		59DF64D56854F5A31A81B8BC42C3B300 /* GMModulizationDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMModulizationDemo; path = GMModulizationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AF249D83B3185312E567440825E92F6 /* Pods-GMModulizationDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMModulizationDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		5E64A293049D23ACA0771EE9998F0977 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		630CAF203387517183BAF3B11F28A24C /* Pods-GMModulizationDemo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMModulizationDemo_Tests"; path = Pods_GMModulizationDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63BBBD2F22432F0D96CADF22F3FC216E /* Pods-GMModulizationDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMModulizationDemo_Example.modulemap"; sourceTree = "<group>"; };
-		687D74BCFF197AA161E1AE140C77D115 /* GMModulizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMModulizationDemo.release.xcconfig; sourceTree = "<group>"; };
-		6C636217191100966F352DA29395B48F /* Pods-GMModulizationDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76E2690FC847C47FF5601BF6BE2F25B0 /* Pods-GMModulizationDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Tests-Info.plist"; sourceTree = "<group>"; };
-		780DBB6574123B711A8713439E4A0DDF /* Pods-GMModulizationDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8109EEF51413A1E485A06D735EE36DB6 /* GMModulizationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMModulizationDemo-umbrella.h"; sourceTree = "<group>"; };
-		8EFC722DD7EFE30F2F5E33D5E294E93D /* Pods-GMModulizationDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMModulizationDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		988983AA3DD3185CC9A9965823183460 /* Pods-GMModulizationDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMModulizationDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9AC7CE5926091234FF7BE506549E4986 /* Pods-GMModulizationDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMModulizationDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE046AD04E7E0F3C9B832B7D4BE3B658 /* Pods-GMModulizationDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9CB26C1125DC8A1559EE09FC1CFA2A1 /* GMModulizationDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMModulizationDemo-prefix.pch"; sourceTree = "<group>"; };
-		BDE5E33D17347A62799FAF248C807CBE /* GMModulizationDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMModulizationDemo-Info.plist"; sourceTree = "<group>"; };
-		C2FD840C4ABDE50F8A9D63DFC87DFC79 /* GMModulizationDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GMModulizationDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B48CA95E685B52D3DBBAE40BD956AEC /* Pods-GMModulizationDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A475BA8B8A6FB73B4FA8BBCB3363AEAB /* Pods-GMModulizationDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMModulizationDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		A855818D7D3EA2CCBD4FEA1B3DB397CE /* Pods-GMModulizationDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMModulizationDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1B1F40120315669B0705A7FA13211A1 /* GMModulizationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMModulizationDemo-dummy.m"; sourceTree = "<group>"; };
+		B2BDE9C36D6006E02A683B5D300112CD /* Pods-GMModulizationDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B9DA8705DFE86F96543876833CF22B6E /* GMModulizationDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMModulizationDemo-Info.plist"; sourceTree = "<group>"; };
 		CB8D29A5102CD7DBC378A2DC448ACCB4 /* Pods-GMModulizationDemo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMModulizationDemo_Example"; path = Pods_GMModulizationDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D11012AC61B9D8E621D384565B74830E /* GMModulizationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMModulizationDemo-dummy.m"; sourceTree = "<group>"; };
-		D32243D33F690C1565AA57B12F4C73A2 /* Pods-GMModulizationDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMModulizationDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		EA9A6D66BA60F982A606F67EAF236921 /* Pods-GMModulizationDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMModulizationDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F22EF322404BD16044EA6DEF420F5C91 /* Pods-GMModulizationDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA65A1FA0C0B7090EDCDB150BDD571E1 /* Pods-GMModulizationDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMModulizationDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FBA84571450060C0A95E7EFCB02F5090 /* Pods-GMModulizationDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMModulizationDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1FB64FFE8B62B25A7A8E790836AF6BF /* GMModulizationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMModulizationDemo.modulemap; sourceTree = "<group>"; };
+		EB6675B5A47976002F06BEB14AB141B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,49 +69,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DACC593B0A8D6C5D69A8506B26A47A8D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F030BEBD25DAAE24B11844FE22FA0AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		275A88D6807FEFA9A23C008B00464A49 /* Pods-GMModulizationDemo_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D32243D33F690C1565AA57B12F4C73A2 /* Pods-GMModulizationDemo_Tests.modulemap */,
-				8EFC722DD7EFE30F2F5E33D5E294E93D /* Pods-GMModulizationDemo_Tests-acknowledgements.markdown */,
-				F22EF322404BD16044EA6DEF420F5C91 /* Pods-GMModulizationDemo_Tests-acknowledgements.plist */,
-				334B5BE2F54C2CE0A8BFA32FB411D429 /* Pods-GMModulizationDemo_Tests-dummy.m */,
-				76E2690FC847C47FF5601BF6BE2F25B0 /* Pods-GMModulizationDemo_Tests-Info.plist */,
-				43D88BD71FFEC168B944824673F2364F /* Pods-GMModulizationDemo_Tests-umbrella.h */,
-				AE046AD04E7E0F3C9B832B7D4BE3B658 /* Pods-GMModulizationDemo_Tests.debug.xcconfig */,
-				6C636217191100966F352DA29395B48F /* Pods-GMModulizationDemo_Tests.release.xcconfig */,
-			);
-			name = "Pods-GMModulizationDemo_Tests";
-			path = "Target Support Files/Pods-GMModulizationDemo_Tests";
-			sourceTree = "<group>";
-		};
 		293CE29A2F0EAC5E17B3A9BE3C3336A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8AEA5F9A9045C4B6394F27B630A79430 /* GMModulizationDemo */,
+				5CF2949165AF0E5D2329666E6C001BDA /* GMModulizationDemo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		504674FDDDAF8916BB9AEBC3D7CDFCB8 /* Products */ = {
+		2FA3582204D59E9AB3C75E1DC788A104 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59DF64D56854F5A31A81B8BC42C3B300 /* GMModulizationDemo */,
-				CB8D29A5102CD7DBC378A2DC448ACCB4 /* Pods-GMModulizationDemo_Example */,
-				630CAF203387517183BAF3B11F28A24C /* Pods-GMModulizationDemo_Tests */,
+				E1FB64FFE8B62B25A7A8E790836AF6BF /* GMModulizationDemo.modulemap */,
+				B1B1F40120315669B0705A7FA13211A1 /* GMModulizationDemo-dummy.m */,
+				B9DA8705DFE86F96543876833CF22B6E /* GMModulizationDemo-Info.plist */,
+				084BFF3B08BBBF9C7434BC9D04D7FCBD /* GMModulizationDemo-prefix.pch */,
+				417DFFABBD10A4BFBCD857ECD2413E20 /* GMModulizationDemo-umbrella.h */,
+				3B482896F0670A2842695D3499CDAF37 /* GMModulizationDemo.debug.xcconfig */,
+				0A481819D52061AA2D9D75EC192F431D /* GMModulizationDemo.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GMModulizationDemo";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -142,66 +103,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A52B129D5C024B3F24A589FA81F8B0B /* Pods-GMModulizationDemo_Example */ = {
+		5CF2949165AF0E5D2329666E6C001BDA /* GMModulizationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63BBBD2F22432F0D96CADF22F3FC216E /* Pods-GMModulizationDemo_Example.modulemap */,
-				EA9A6D66BA60F982A606F67EAF236921 /* Pods-GMModulizationDemo_Example-acknowledgements.markdown */,
-				FA65A1FA0C0B7090EDCDB150BDD571E1 /* Pods-GMModulizationDemo_Example-acknowledgements.plist */,
-				9AC7CE5926091234FF7BE506549E4986 /* Pods-GMModulizationDemo_Example-dummy.m */,
-				988983AA3DD3185CC9A9965823183460 /* Pods-GMModulizationDemo_Example-frameworks.sh */,
-				475828DB6D198055716A7AA2ADD54A0D /* Pods-GMModulizationDemo_Example-Info.plist */,
-				5AF249D83B3185312E567440825E92F6 /* Pods-GMModulizationDemo_Example-umbrella.h */,
-				780DBB6574123B711A8713439E4A0DDF /* Pods-GMModulizationDemo_Example.debug.xcconfig */,
-				FBA84571450060C0A95E7EFCB02F5090 /* Pods-GMModulizationDemo_Example.release.xcconfig */,
-			);
-			name = "Pods-GMModulizationDemo_Example";
-			path = "Target Support Files/Pods-GMModulizationDemo_Example";
-			sourceTree = "<group>";
-		};
-		8AEA5F9A9045C4B6394F27B630A79430 /* GMModulizationDemo */ = {
-			isa = PBXGroup;
-			children = (
-				402FC48E2DBDB9A4A41C1825A0C970CD /* Demo.swift */,
-				B99246F60B30FAFBD433488878A7954F /* Pod */,
-				C8CDD559342822D8228C20CB8CA3EDE9 /* Support Files */,
+				4675660D7F73F394AE3DFC7011FD4380 /* ColorExtension.swift */,
+				6A9187FE33A44F9F882A95EC2F06EBE9 /* Pod */,
+				2FA3582204D59E9AB3C75E1DC788A104 /* Support Files */,
 			);
 			name = GMModulizationDemo;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		ACA5EC87A21D29ACBE9E0974AEBC448B /* Targets Support Files */ = {
+		6A9187FE33A44F9F882A95EC2F06EBE9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7A52B129D5C024B3F24A589FA81F8B0B /* Pods-GMModulizationDemo_Example */,
-				275A88D6807FEFA9A23C008B00464A49 /* Pods-GMModulizationDemo_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B99246F60B30FAFBD433488878A7954F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C2FD840C4ABDE50F8A9D63DFC87DFC79 /* GMModulizationDemo.podspec */,
-				3770998D796659F9251FEAA6E7E8F0E9 /* LICENSE */,
-				5E64A293049D23ACA0771EE9998F0977 /* README.md */,
+				01C9A316842B734A263F4A58E3044B77 /* GMModulizationDemo.podspec */,
+				EB6675B5A47976002F06BEB14AB141B9 /* LICENSE */,
+				02E591AA1F2C95AB49F88E2A2BBCAA53 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C8CDD559342822D8228C20CB8CA3EDE9 /* Support Files */ = {
+		9CE8A602B5D78B135DB8860FE643FD9D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B4FF42CE82B92E0A387DB3BFEC38151 /* GMModulizationDemo.modulemap */,
-				D11012AC61B9D8E621D384565B74830E /* GMModulizationDemo-dummy.m */,
-				BDE5E33D17347A62799FAF248C807CBE /* GMModulizationDemo-Info.plist */,
-				B9CB26C1125DC8A1559EE09FC1CFA2A1 /* GMModulizationDemo-prefix.pch */,
-				8109EEF51413A1E485A06D735EE36DB6 /* GMModulizationDemo-umbrella.h */,
-				073C5B7DC497C06C2F6C590BA1D50E69 /* GMModulizationDemo.debug.xcconfig */,
-				687D74BCFF197AA161E1AE140C77D115 /* GMModulizationDemo.release.xcconfig */,
+				F868F2397B024392B2FC3C72724ABAB9 /* Pods-GMModulizationDemo_Example */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GMModulizationDemo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -210,9 +138,18 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				293CE29A2F0EAC5E17B3A9BE3C3336A1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				504674FDDDAF8916BB9AEBC3D7CDFCB8 /* Products */,
-				ACA5EC87A21D29ACBE9E0974AEBC448B /* Targets Support Files */,
+				CF1C9695BA081D41608B3B4F4DE4FAF8 /* Products */,
+				9CE8A602B5D78B135DB8860FE643FD9D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF1C9695BA081D41608B3B4F4DE4FAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59DF64D56854F5A31A81B8BC42C3B300 /* GMModulizationDemo */,
+				CB8D29A5102CD7DBC378A2DC448ACCB4 /* Pods-GMModulizationDemo_Example */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -223,17 +160,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F868F2397B024392B2FC3C72724ABAB9 /* Pods-GMModulizationDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A7A1B8EA0328D0CF772C0329D629C /* Pods-GMModulizationDemo_Example.modulemap */,
+				A855818D7D3EA2CCBD4FEA1B3DB397CE /* Pods-GMModulizationDemo_Example-acknowledgements.markdown */,
+				47185488F2201A111952586CAE63F120 /* Pods-GMModulizationDemo_Example-acknowledgements.plist */,
+				A475BA8B8A6FB73B4FA8BBCB3363AEAB /* Pods-GMModulizationDemo_Example-dummy.m */,
+				8B48CA95E685B52D3DBBAE40BD956AEC /* Pods-GMModulizationDemo_Example-Info.plist */,
+				3F905E10AB71BC323E623DE3F75ED91E /* Pods-GMModulizationDemo_Example-umbrella.h */,
+				1F8DAF4AA7DB55144850816C610748F4 /* Pods-GMModulizationDemo_Example.debug.xcconfig */,
+				B2BDE9C36D6006E02A683B5D300112CD /* Pods-GMModulizationDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-GMModulizationDemo_Example";
+			path = "Target Support Files/Pods-GMModulizationDemo_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6F6C1C75C9E70C0E67B394B39E63D87D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AB0203CD2277FD27B2DC1EFA981C72A /* Pods-GMModulizationDemo_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D30588FF99C2DF56BD014C06D7F13F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,31 +217,12 @@
 			productReference = CB8D29A5102CD7DBC378A2DC448ACCB4 /* Pods-GMModulizationDemo_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		930E0E3C0F9B66A77BCA5967EB59F50F /* Pods-GMModulizationDemo_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEFB964E0E5583420888471A72998C1 /* Build configuration list for PBXNativeTarget "Pods-GMModulizationDemo_Tests" */;
-			buildPhases = (
-				6F6C1C75C9E70C0E67B394B39E63D87D /* Headers */,
-				30D2856C9B2858031B371B6DB2A548E0 /* Sources */,
-				DACC593B0A8D6C5D69A8506B26A47A8D /* Frameworks */,
-				E418B64623D2222DEE0544DF58E1C7D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1C0792AB5AA71D23904E1242CB2DB9F /* PBXTargetDependency */,
-			);
-			name = "Pods-GMModulizationDemo_Tests";
-			productName = Pods_GMModulizationDemo_Tests;
-			productReference = 630CAF203387517183BAF3B11F28A24C /* Pods-GMModulizationDemo_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 		A3AA36363FE93A258F5F48F7D18891DE /* GMModulizationDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E09BE320727EBEA7C253E4C98B1774 /* Build configuration list for PBXNativeTarget "GMModulizationDemo" */;
 			buildPhases = (
 				9D56FFC97035971943691C9C060C3230 /* Headers */,
-				D0F4055E9003CAD0391D8507CE5F7438 /* Sources */,
+				66475902EB8D26EC8FAFFC204872617B /* Sources */,
 				B395071EFD76DFEBE150BF4D83EDBDFC /* Frameworks */,
 				ECF00A75B966060CAA58D59C25E4DD5E /* Resources */,
 			);
@@ -327,26 +253,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 504674FDDDAF8916BB9AEBC3D7CDFCB8 /* Products */;
+			productRefGroup = CF1C9695BA081D41608B3B4F4DE4FAF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A3AA36363FE93A258F5F48F7D18891DE /* GMModulizationDemo */,
 				081FABA3FD317E1B7E7E3C33354C6E90 /* Pods-GMModulizationDemo_Example */,
-				930E0E3C0F9B66A77BCA5967EB59F50F /* Pods-GMModulizationDemo_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		53659CD4B845F2F2030D44C5B96B5A36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E418B64623D2222DEE0544DF58E1C7D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,11 +281,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30D2856C9B2858031B371B6DB2A548E0 /* Sources */ = {
+		66475902EB8D26EC8FAFFC204872617B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F07BF6C8E57CFD60C9616F7E166DDB /* Pods-GMModulizationDemo_Tests-dummy.m in Sources */,
+				9EE820E556504905976ABC757A77290D /* ColorExtension.swift in Sources */,
+				CE3605494BD0ADC82C39D6F94A436ED6 /* GMModulizationDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,15 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FBA1E337E18F0D390588C8B361C082 /* Pods-GMModulizationDemo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0F4055E9003CAD0391D8507CE5F7438 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EB161633841AA9E9A83A952186EA656 /* GMModulizationDemo-dummy.m in Sources */,
-				086C9AF47DD3B301B30808BFFE66E145 /* Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,52 +307,15 @@
 			target = A3AA36363FE93A258F5F48F7D18891DE /* GMModulizationDemo */;
 			targetProxy = 2EAEA1B7726A44A1E20530758324C024 /* PBXContainerItemProxy */;
 		};
-		E1C0792AB5AA71D23904E1242CB2DB9F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GMModulizationDemo_Example";
-			target = 081FABA3FD317E1B7E7E3C33354C6E90 /* Pods-GMModulizationDemo_Example */;
-			targetProxy = F2A2145EF0BE57D715431D291332D10D /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		078402C32C07076CA17A30AF54445AC9 /* Release */ = {
+		5E47AF255A9D836C8D4A68E736116DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687D74BCFF197AA161E1AE140C77D115 /* GMModulizationDemo.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMModulizationDemo/GMModulizationDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMModulizationDemo/GMModulizationDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMModulizationDemo/GMModulizationDemo.modulemap";
-				PRODUCT_MODULE_NAME = GMModulizationDemo;
-				PRODUCT_NAME = GMModulizationDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0D514661F219B3F3733CC18AFF70C8F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 780DBB6574123B711A8713439E4A0DDF /* Pods-GMModulizationDemo_Example.debug.xcconfig */;
+			baseConfigurationReference = 1F8DAF4AA7DB55144850816C610748F4 /* Pods-GMModulizationDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -454,7 +327,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example.modulemap";
@@ -471,11 +344,11 @@
 			};
 			name = Debug;
 		};
-		63D22F4C4BDC39E1CB14DA67D5A36BA6 /* Release */ = {
+		5E6BD3DE7F714BF8288764743B7302C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C636217191100966F352DA29395B48F /* Pods-GMModulizationDemo_Tests.release.xcconfig */;
+			baseConfigurationReference = 3B482896F0670A2842695D3499CDAF37 /* GMModulizationDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,12 +358,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMModulizationDemo_Tests/Pods-GMModulizationDemo_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GMModulizationDemo/GMModulizationDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMModulizationDemo/GMModulizationDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMModulizationDemo_Tests/Pods-GMModulizationDemo_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GMModulizationDemo/GMModulizationDemo.modulemap";
+				PRODUCT_MODULE_NAME = GMModulizationDemo;
+				PRODUCT_NAME = GMModulizationDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AAD8904659ABC95F56D131ED0CCBCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BDE9C36D6006E02A683B5D300112CD /* Pods-GMModulizationDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -505,7 +412,7 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,18 +462,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -619,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -632,77 +540,11 @@
 			};
 			name = Debug;
 		};
-		E9B60CE86670F87BC6CA41386273C91A /* Debug */ = {
+		C20EF7287BBA27355D3EECCBE14D8C37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE046AD04E7E0F3C9B832B7D4BE3B658 /* Pods-GMModulizationDemo_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0A481819D52061AA2D9D75EC192F431D /* GMModulizationDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMModulizationDemo_Tests/Pods-GMModulizationDemo_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMModulizationDemo_Tests/Pods-GMModulizationDemo_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F435F435F5C4B1C0BFCD057D36CDEF94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA84571450060C0A95E7EFCB02F5090 /* Pods-GMModulizationDemo_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMModulizationDemo_Example/Pods-GMModulizationDemo_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA6FC4110A234B73E896F90012CE2970 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 073C5B7DC497C06C2F6C590BA1D50E69 /* GMModulizationDemo.debug.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,18 +559,20 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/GMModulizationDemo/GMModulizationDemo.modulemap";
 				PRODUCT_MODULE_NAME = GMModulizationDemo;
 				PRODUCT_NAME = GMModulizationDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -736,17 +580,8 @@
 		10E09BE320727EBEA7C253E4C98B1774 /* Build configuration list for PBXNativeTarget "GMModulizationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA6FC4110A234B73E896F90012CE2970 /* Debug */,
-				078402C32C07076CA17A30AF54445AC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1BEFB964E0E5583420888471A72998C1 /* Build configuration list for PBXNativeTarget "Pods-GMModulizationDemo_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9B60CE86670F87BC6CA41386273C91A /* Debug */,
-				63D22F4C4BDC39E1CB14DA67D5A36BA6 /* Release */,
+				5E6BD3DE7F714BF8288764743B7302C5 /* Debug */,
+				C20EF7287BBA27355D3EECCBE14D8C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -754,8 +589,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -763,8 +598,8 @@
 		CB4A633F97A795A05C74AC88E0DEF372 /* Build configuration list for PBXNativeTarget "Pods-GMModulizationDemo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D514661F219B3F3733CC18AFF70C8F8 /* Debug */,
-				F435F435F5C4B1C0BFCD057D36CDEF94 /* Release */,
+				5E47AF255A9D836C8D4A68E736116DC7 /* Debug */,
+				6AAD8904659ABC95F56D131ED0CCBCD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
